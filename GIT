@@ -1,0 +1,95 @@
+Day 01:-
+
+ll
+    2  mkdir aws
+    3  cd aws/
+    4  git init
+    5  touch mani
+    6  vi mani
+    7  cat > vijay
+    8  cat vijay
+    9  git status
+   10  git add .
+   11  git status
+   12  git commit -m "1st commit"
+   13  git comfig --global user.nmae "mani"
+   14  git comfig --global user.name "mani"
+   15  git config --global user.name "mani"
+   16  git config --global user.email "mani@gmail.com"
+   17  git commit -m "1st commit"
+   18  git remote add origin https://github.com/manikantasaiganesh/mani.git
+   19  git push origin master
+   20  cat mani
+   21  git pull origin master
+   22  cat mani
+   23  git log
+   24  ll
+   25  ll
+   26  ll
+   27  git checkout -b production
+   28  ll
+   29  touch files{1..3}
+   30  ll
+   31  vi file1
+   32  vi file2
+   33  vi file3
+   34  git astatus
+   35  git status
+   36  ll
+   37  rm -rf files{1..}
+   38  ll
+   39  rm -rf files{1..3}
+   40  ll
+   41  git add .
+   42  git status
+   43  git checkout master
+   44  ll
+   45  git checkout production
+   46  ll
+   47  git commit -m "2and commit"
+   48  ll
+   49  git checkout master
+   50  ll
+   51  git checkout production
+   52  ll
+   53  git push origin production
+   54  git checkout master
+   55  ll
+   56  git checkout production
+   57  ll
+   58  ll
+   59  git checkout master
+   60  ll
+   61  git pull master
+   62  git pull origin master
+   63  ll
+   64  git checkout -b testing
+   65  git branch
+   66  ll
+   67  touch file{4..6}
+   68  ll
+   69  vi file6
+   70  vi file5
+   71  vi file
+   72  git add .
+   73  git status
+   74  git commit
+   75  git commit -m "3rd commit"
+   76  git checkout -b master
+   77  git checkout master
+   78  ll
+   79  git checkout testing
+   80  git push origin testing
+   81  ll
+   82  git checkout master
+   83  ll
+   84  git merge testing
+   85  ll
+   86  git pull origin master
+   87  ll
+   88  git checkout production
+   89  ll
+   90  git merge production
+   91  ll
+   92  git merge testing
+   93  ll
